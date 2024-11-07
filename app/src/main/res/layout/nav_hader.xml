@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#8087B5">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        app:cardCornerRadius="40dp"
+        android:backgroundTint="#71706E"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/hader"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/agbalumo"
+        android:text="User Name..."
+        android:textColor="#05202D"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Email........."
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#05202D"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="20dp"/>
+
+
+
+
+
+</LinearLayout>
